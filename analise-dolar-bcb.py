@@ -15,7 +15,8 @@ def buscar_dados_dolar_ultimos_30_dias():
     data_final_str = data_final.strftime('%m-%d-%Y')
     data_inicial_str = data_inicial.strftime('%m-%d-%Y')
 
-    # URL CORRIGIDA:
+    # URL
+
     url = f"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='{data_inicial_str}'&@dataFinalCotacao='{data_final_str}'&$format=json"
 
     try:
