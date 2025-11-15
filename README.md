@@ -8,7 +8,7 @@ Este repositório contém dois scripts Python que demonstram o consumo de APIs e
 * Consumo de **APIs REST** (Banco Central, GitHub, Binance).
 * Compreensão de **Camadas de Rede (Modelo OSI/TCP-IP)**:
     * **Camada 3 (Rede):** Monitoramento da latência com `ping` (protocolo ICMP).
-    * **Camada 7 (Aplicação):** Monitoramento de status de API com `requests` (protocolo HTTP).
+    * **Camada 5 (Aplicação):** Monitoramento de status de API com `requests` (protocolo HTTP).
 
 ---
 
